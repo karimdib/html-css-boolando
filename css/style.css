@@ -157,6 +157,7 @@ footer{
 
 .col-4:hover, .web-1:hover{
     z-index: 40;
+    color: red;
+    
 }
-
 
