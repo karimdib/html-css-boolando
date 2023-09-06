@@ -4,25 +4,43 @@
     box-sizing: border-box;
 }
 
+ul, ol, menu{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    font-size: 12px;
+}
+
 header{
     min-height: 20px;
     background-color: orangered;
     margin-bottom: 20px;
+    color: white;
 }
+
+header .row{
+    padding: 10px;
+}
+
+#logo{
+    max-height: 20px;
+    text-align: center;
+}
+
+
 section{
     padding: 20px;
 }
-body{
-    max-width: 1000px;
-    margin: auto;
-}
+
 
 .container{
     max-width: 1000px;
     margin: 0 auto;
 }
 
-.row-header{
+.justify{
     display: flex;
     justify-content: space-between;
 }
@@ -36,6 +54,15 @@ body{
 img{
     width: 100%;
 }
+
+
+footer{
+    background-color: rgb(36, 36, 36);
+    min-height: 30px;
+    padding: 10px;
+    color: white;
+}
+
 
 .col-3{
     flex-basis: calc((100% / 12) * 3);
