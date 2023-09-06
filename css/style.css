@@ -69,8 +69,7 @@ footer{
 }
 
 .col-4{
-    flex-basis: calc((100% / 12) * 4);
-    
+    flex-basis: calc((100% / 12) * 4);    
     padding: 5px;    
     position: relative;
 }
@@ -105,9 +104,11 @@ footer{
     position: absolute;
     left: 10;
     bottom: 110px;
-    
-    
+    z-index: 997;
+        
 }
+
+
 
 .green{
     background-color: green;
@@ -116,6 +117,7 @@ footer{
     position: absolute;
     bottom:110px;
     left: 50px ;
+    z-index: 998;
 }
 
 .green-2{
@@ -126,16 +128,34 @@ footer{
     bottom:110px;
     left: 5px ;
 }
-
 .heart{
-    background-color: white;
-    
+    background-color: white;    
     padding: 5px 10px;
     font-size: 20px;
     position: absolute;
     top: 15px;
     right: 5px;
+    z-index: 999;
 }
 
+
+.web-1{
+    position:relative;
+    z-index: 65;
+        
+    left: 0;
+}
+
+.web-2 {
+    position: absolute;
+    z-index: 50;
+    left: 0;
+    
+    
+}
+
+.col-4:hover, .web-1:hover{
+    z-index: 40;
+}
 
 
