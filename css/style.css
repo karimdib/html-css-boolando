@@ -127,6 +127,7 @@ footer{
     position: absolute;
     bottom:110px;
     left: 5px ;
+    z-index: 100;
 }
 .heart{
     background-color: white;    
@@ -141,14 +142,14 @@ footer{
 
 .web-1{
     position:relative;
-    z-index: 65;
-        
+    z-index: 65;        
     left: 0;
 }
 
 .web-2 {
     position: absolute;
     z-index: 50;
+    padding: 5px;
     left: 0;
     
     
