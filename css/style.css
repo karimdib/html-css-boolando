@@ -16,7 +16,7 @@ li{
 }
 
 header{
-    min-height: 20px;
+    
     background-color: orangered;
     margin-bottom: 20px;
     color: white;
@@ -45,6 +45,7 @@ section{
 .justify{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .row{
@@ -91,9 +92,7 @@ footer{
     font-weight: bold;
 }
 
-.product{
-    font-weight: bold;
-}
+
 
 .new-price{
     color: red;
@@ -166,3 +165,22 @@ footer{
 }
 
 /* fine proprità section*/
+
+.col > p{
+    margin-bottom: 5px;
+}
+
+.social > img{
+    width: 20px;
+}
+
+
+.col > img{
+    width: 20px;
+}
+
+.col-icon  span{
+    font-size: 20px;
+    line-height: 10px;
+
+}
